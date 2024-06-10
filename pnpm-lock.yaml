@@ -105,8 +105,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@grpc/grpc-js@1.9.14:
-    resolution: {integrity: sha512-nOpuzZ2G3IuMFN+UPPpKrC6NsLmWsTqSsm66IRfnBt1D4pwTqE27lmbpcPM+l2Ua4gE7PfjRHI6uedAy7hoXUw==}
+  /@grpc/grpc-js@1.9.15:
+    resolution: {integrity: sha512-nqE7Hc0AzI+euzUwDAy0aY5hCp10r734gMGRdU+qOPX0XSceI2ULrcXB5U2xSc5VkWwalCj4M7GzCAygZl2KoQ==}
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.7.13
@@ -2181,7 +2181,7 @@ packages:
   /nice-grpc@2.1.8:
     resolution: {integrity: sha512-pTugD3cZ1Vb0Q2OjZZh80wpLY6L7jSADnzY7Dq6mL9EGUJJF5mfQjcHF4gqpQtyTq2YsZgPIArfNcq0k3ApgQg==}
     dependencies:
-      '@grpc/grpc-js': 1.9.14
+      '@grpc/grpc-js': 1.9.15
       abort-controller-x: 0.4.3
       nice-grpc-common: 2.0.2
     dev: false
